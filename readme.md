@@ -33,6 +33,33 @@ Keyboards with more standard layouts but with thumb clusters or angled spacebars
 
 It may seem like keyboards with separated arrow keys pose a challenge for the EKH, but this is why we recommend measuring from a key on the bottom row of the 60% block, so if not a spacebar then perhaps the alt or control key. This may be a bit more difficult to design a board with separated arrow keys to the same height standards as one without, but since they don’t play into the typing experience, it’s best to ignore them for our purposes.
 
+Keyboards that use a feet to provide angle can also be troublesome, but you can create a dummy desk top in CAD and measure from the top of that surface, as is shown in the Dire Wolf example in **Context**.
+
 Also, when measuring physical keyboards, avoid using switches with silenced stems, as the thickness of the dampening material can introduce some (admittedly tiny) error.
 
-## Context
+## Example Measurements
+
+Here are a few reference images, that illustrate the positioning of the measurement tools, as well as the points from which to measure.
+
+![Cypher, by Cablecar Designs](https://i.imgur.com/YRlJnds.png)
+*Cypher, by Cablecar Designs*
+# 
+
+![Bushwacker, by Metamechs](https://i.imgur.com/BbJp7pk.png)
+*Bushwacker, by Metamechs*
+# 
+
+![Dire Wolf, by Metamechs](https://i.imgur.com/WNKLEOg.png)
+*Dire Wolf, by Metamechs*
+# 
+
+![Timber Wolf, by Metamechs](https://i.imgur.com/11lDYS2.png)
+*Timber Wolf, by Metamechs*
+# 
+# EKH Database
+Designer | Keyboard | EKH
+------------ | ------------ | -------------
+Cablecar Designs | Cypher | 20.9
+MetaMechs | Bushwacker | 21.8
+MetaMechs | Dire Wolf | 26.3
+MetaMechs | Timber Wolf | 23.8
