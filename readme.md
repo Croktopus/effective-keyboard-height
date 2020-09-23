@@ -6,15 +6,15 @@ For that reason, we propose this standardized method to determine and compare ke
 The Effective Keyboard Height (EKH) is the distance from the bottom of the case (without bumpons) to the center of the spacebar stem (or some other bottom row key in the 60% cluster), when the switch is unpressed.
 
 ## Measuring
-To measure this dimension on an assembled board, we recommend pulling the keycap, aligning an open caliper against the bottom of the keyboard, and gently closing the caliper until it just contacts the switch stem.
+To measure this dimension on an assembled board, we recommend pulling the keycap, aligning an open caliper against the bottom of the keyboard, and gently closing the caliper until it just contacts the switch stem. Avoid measuring based on switches with silenced stems, as the thickness of the dampening material can introduce some (admittedly tiny) error.
 
-To measure this dimension in CAD, we recommend measuring based off of the provided dummy switch which has been designed to make such measurement as simple as possible, as many publicly available switch models do not adhere to manufacturer specifications. The circular portion at the bottom is designed to fit just into the model of the PCB, and the square section in the middle should fit into a typical plate cutout. Proper orientation is noted on the measuring dummy, and the measurement should be done from the bottom of the case to the ridge at the top which represents the center of the top of a switch stem.
+To measure this dimension in CAD, we recommend measuring based off of the appropriate dummy switch from the measuring-tools folder. Most publically available switch models aren't quite dimensionally accurate, so these models were made to be easy to use and to match the datasheets for each switch type. For the MX model, the circular portion at the bottom is designed to fit just into the model of the PCB, and the square section in the middle should fit into a typical plate cutout. Proper orientation is noted on the measuring dummy, and the measurement should be done from the bottom of the case to the ridge at the top which represents the center of the top of a switch stem.
 
 When listing an EKH in an IC or GB, we also recommend noting how much height you expect bump-ons to add, either in their compressed on uncompressed states (so, total thickness of bumpon minus the depth of the groove that you set them in).
 
 ## Goals
 The objectives of this measurement system are as follows:
-1. Ensure the dimension is independent of aspects irrelevant to typing such as bezel height or width
+1. Ensure the dimension is independent of aspects irrelevant to the typing experience, such as bezel height or width
 1. Allow for easy measurement both in CAD and on physical, assembled boards
 1. Make the measurement process as straightforward as possible, to minimize error (as well as effort)
 1. Maintain compatibility with as many layouts as is reasonable
@@ -33,9 +33,7 @@ Keyboards with more standard layouts but with thumb clusters or angled spacebars
 
 It may seem like keyboards with separated arrow keys pose a challenge for the EKH, but this is why we recommend measuring from a key on the bottom row of the 60% block, so if not a spacebar then perhaps the alt or control key. This may be a bit more difficult to design a board with separated arrow keys to the same height standards as one without, but since they don’t play into the typing experience, it’s best to ignore them for our purposes.
 
-Keyboards that use a feet to provide angle can also be troublesome, but you can create a dummy desk top in CAD and measure from the top of that surface, as is shown in the Dire Wolf example in **Context**.
-
-Also, when measuring physical keyboards, avoid using switches with silenced stems, as the thickness of the dampening material can introduce some (admittedly tiny) error.
+Keyboards that use a feet to provide angle can also be troublesome, but you can create a dummy desk top in CAD and measure from the top of that surface, as is shown in the Dire Wolf example below.
 
 ## Example Measurements
 
