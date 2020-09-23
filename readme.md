@@ -49,11 +49,7 @@ Here are a few reference images, that illustrate the positioning of the measurem
 
 ![Dire Wolf, by Metamechs](https://i.imgur.com/WNKLEOg.png)
 *Dire Wolf, by Metamechs*
-# 
-
-![Timber Wolf, by Metamechs](https://i.imgur.com/11lDYS2.png)
-*Timber Wolf, by Metamechs*
-# 
+#
 # EKH Database
 Designer | Keyboard | EKH
 ------------ | ------------ | -------------
