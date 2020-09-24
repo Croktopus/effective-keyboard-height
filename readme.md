@@ -10,7 +10,9 @@ To measure this dimension on an assembled board, we recommend pulling the keycap
 
 To measure this dimension in CAD, measure off the appropriate dummy switch from the measuring-tools folder. Most publically available switch models aren't quite dimensionally accurate, so these models were made to be easy to use and to match the datasheets for each switch type. For the MX model, the circular portion at the bottom is designed to fit just into the model of the PCB, and the square section in the middle should fit into a typical plate cutout. Proper orientation is noted on the measuring dummy, and the measurement should be done from the bottom of the case to the ridge at the top which represents the center of the top of a switch stem.
 
-When listing an EKH in an IC or GB, we also recommend noting how much height you expect bump-ons to add, either in their compressed on uncompressed states (so, total thickness of bumpon minus the depth of the groove that you set them in).
+You will also find Alps and Choc stand-ins in the measuring-tools folder, which can be used in similar ways (lining up the rectangle with the plate cutout and measuring from the ridge representing the center of the stem). Measurements using Alps will generally be slightly higher than ones using MX due to the switch being slightly taller, adding somewhere between 0.5mm and 1mm depending on the design, but the two are mostly comparable.
+
+When listing an EKH in an IC or GB, if your keyboard supports multiple switch types, we recommend listing an EKH for each type of switch it supports. If you would like another dummy switch to be added, please open an issue and include a link to a reliable switch datasheet. We also recommend noting how much height you expect bump-ons to add, either in their compressed on uncompressed states (so, total thickness of bumpon minus the depth of the groove that you set them in).
 
 ## Goals
 The objectives of this measurement system are as follows:
