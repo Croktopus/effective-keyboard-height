@@ -56,6 +56,7 @@ Here are a few reference images, that illustrate the positioning of the measurem
 Designer | Keyboard | EKH
 ------------ | ------------ | -------------
 Cablecar Designs | Cypher | 20.9
+Duck | Orion | 25.4
 MetaMechs | Bushwacker | 21.8
 MetaMechs | Dire Wolf | 26.3
 MetaMechs | Timber Wolf | 23.8
