@@ -60,6 +60,8 @@ Duck | Orion v2.5 | 25.4
 MetaMechs | Bushwacker | 21.8
 MetaMechs | Dire Wolf | 26.3
 MetaMechs | Timber Wolf | 23.8
+pngu | idb60 | 23.7
+Quantrik | Kyuu | 21.6
 
 If you would like your keyboard to be added to this list, you can open an issue in this repo. Please include the designer or brand name, the keyboard name, and its EKH, as well as a screenshot or picture of the measurement.
 
