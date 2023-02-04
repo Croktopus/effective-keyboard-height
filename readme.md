@@ -63,6 +63,7 @@ MetaMechs | Timber Wolf | 23.8
 pngu | idb60 | 23.7
 Quantrik | Kyuu | 21.6
 Cable Car Designs | Phoenix | 23.2
+mkh studio | bully | 22.4
 
 If you would like your keyboard to be added to this list, you can open an issue in this repo. Please include the designer or brand name, the keyboard name, and its EKH, as well as a screenshot or picture of the measurement.
 
